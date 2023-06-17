@@ -1,0 +1,3 @@
+27.02.2023
+- 2gi link w miejscach do nauki to obraz dockerowy z dużą liczbą podatności
+

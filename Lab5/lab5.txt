@@ -1,0 +1,21 @@
+aplikacje webowe - public
+backendowe i mobilki - private
+
+jak jest client secret on w keykloku to aplikacja się spodziewa że dostanie 
+client secret więc 
+
+aplikacje publiczne nie mogą przechowywać sekrety
+prywatne mogą
+
+
+dlaczego używamy Oautha?
+- delegujemy odpowiedzialność za moduł logowania,
+inaczej musielibyśmy sami zaimplementować moduł 
+odpowiedzialny za logowanie i przechowywanie danych userów
+2. bezpieczeństwo
+- cała otoczka bezpieczeństwa i odpowiedzialność przechodzi na 
+authorization server
+3.uproszczenie
+3 typy auth serverów:
+- keykloak
+- auth0
